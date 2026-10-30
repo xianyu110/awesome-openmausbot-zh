@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OpenMausBot 小白中文教程 · xianyu110</title>
+  <meta name="description" content="milind-soni/OpenMausBot 社区非官方中文入门：桌面安装与 npm CLI。" />
+  <style>
+    :root { color-scheme: light dark; --bg:#0f1419; --fg:#e7ecf3; --muted:#9aa7b5; --card:#1a2330; --accent:#6cb6ff; --ok:#3dd68c; --warn:#e6a23c; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f6f8fb; --fg:#1b2430; --muted:#5b6b7c; --card:#fff; --accent:#0066cc; --ok:#0a7a44; }
+    }
+    body { margin:0; font-family: ui-sans-serif, system-ui, "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif; background:var(--bg); color:var(--fg); line-height:1.65; }
+    main { max-width: 720px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    h1 { font-size: 1.75rem; margin: 0 0 .5rem; }
+    .sub { color: var(--muted); margin-bottom: 1.5rem; }
+    .card { background: var(--card); border-radius: 12px; padding: 1.25rem 1.35rem; margin: 1rem 0; }
+    a { color: var(--accent); }
+    pre { background: #0b1220; color: #d7e2f0; padding: 1rem; border-radius: 8px; overflow:auto; font-family: ui-monospace, Menlo, Consolas, monospace; font-size:.9em; }
+    .ok { color: var(--ok); font-weight: 600; }
+    footer { margin-top: 2rem; color: var(--muted); font-size: .9rem; }
+    img.shot { max-width:100%; height:auto; border-radius:8px; margin:.75rem 0; border:1px solid rgba(127,127,127,.25); }
+    figcaption { color:var(--muted); font-size:.85rem; margin:.25rem 0 1rem; }
+    .tag-real { color:var(--ok); font-weight:600; }
+    .tag-schema { color:var(--warn); font-weight:600; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>OpenMausBot 小白中文教程</h1>
+  <p class="sub">社区非官方导读 · 上游 <a href="https://github.com/milind-soni/OpenMausBot">milind-soni/OpenMausBot</a> · <a href="https://docs.openmausbot.com/">文档</a></p>
+  <div class="card">
+    <p><span class="ok">完整图文教程</span>在 GitHub README：</p>
+    <p><a href="https://github.com/xianyu110/awesome-openmausbot-zh#readme"><strong>打开 README →</strong></a></p>
+  </div>
+  <div class="card">
+    <h2>30 秒对照</h2>
+    <pre># 桌面：Releases 下对应系统的 dmg / exe / deb
+# CLI：Node >= 24
+npx openmausbot --help</pre>
+  </div>
+  <div class="card">
+    <h2>截图</h2>
+    <figure>
+      <img class="shot" src="images/01-download.png" alt="download" loading="lazy" />
+      <figcaption><span class="tag-schema">示意图</span> · 安装包对照</figcaption>
+    </figure>
+    <figure>
+      <img class="shot" src="images/02-npm-cli.png" alt="cli" loading="lazy" />
+      <figcaption><span class="tag-real">真实截图</span> · npm view / --help</figcaption>
+    </figure>
+    <figure>
+      <img class="shot" src="images/03-first-bot.png" alt="first bot" loading="lazy" />
+      <figcaption><span class="tag-schema">示意图</span> · 创建第一个 Bot</figcaption>
+    </figure>
+  </div>
+  <footer>教程文本 MIT · 上游 Apache-2.0 · 与上游无官方隶属 · 2026-10-30</footer>
+</main>
+</body>
+</html>
