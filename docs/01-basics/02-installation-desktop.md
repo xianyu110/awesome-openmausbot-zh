@@ -17,7 +17,7 @@
 3. 按系统常规方式安装并打开应用
 4. 也可使用官方 README 上的直链按钮（同一 Release 资源）
 
-![下载示意（示意图）](images/01-download.png)
+![下载示意（示意图）](../../images/01-download.png)
 
 ### 打开后先看哪里
 

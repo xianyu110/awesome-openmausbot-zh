@@ -19,7 +19,7 @@ npx openmausbot@0.1.141 --help
 # openmausbot --help
 ```
 
-![npm CLI（真实截图）](images/02-npm-cli.png)
+![npm CLI（真实截图）](../../images/02-npm-cli.png)
 
 ### 顶层命令一览（摘自 `openmausbot --help`）
 

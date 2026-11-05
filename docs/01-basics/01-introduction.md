@@ -25,9 +25,9 @@
 
 | # | 文件 | 类型 | 说明 |
 |---|------|------|------|
-| 1 | [`images/01-download.png`](images/01-download.png) | **示意图** | Releases 桌面安装包对照 |
-| 2 | [`images/02-npm-cli.png`](images/02-npm-cli.png) | **真实** | `npm view` + `npx openmausbot --help` |
-| 3 | [`images/03-first-bot.png`](images/03-first-bot.png) | **示意图** | 桌面端创建第一个 Bot 的步骤提纲 |
+| 1 | [`images/01-download.png`](../../images/01-download.png) | **示意图** | Releases 桌面安装包对照 |
+| 2 | [`images/02-npm-cli.png`](../../images/02-npm-cli.png) | **真实** | `npm view` + `npx openmausbot --help` |
+| 3 | [`images/03-first-bot.png`](../../images/03-first-bot.png) | **示意图** | 桌面端创建第一个 Bot 的步骤提纲 |
 
 > CLI 真实输出采集于沙盒；官方引擎要求 **Node ≥ 24**。密钥、邮箱、私人路径不会出现在图中。
 
